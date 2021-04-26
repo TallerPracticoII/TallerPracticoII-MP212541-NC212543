@@ -1,0 +1,192 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding: 0; 
+    margin: 0;
+}
+/*---------- NavBar ----------*/
+nav{
+    height: 100px;
+    width: 100%;
+    background: #f2f2f2;;
+  }
+  a{
+    text-decoration: none;
+    list-style: none;
+  }
+  nav img{
+    width: 100px;
+    height: auto;
+    float: right;
+    margin-right: 5%;
+  }
+  nav ul{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+  }
+  nav ul li a{
+    color: #000;
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+  }
+/*---------- Cuerpo del projecto ----------*/
+.tituloPrincipal{
+    text-align: center;
+    margin: 5%;
+    margin-bottom: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 1100px;
+    min-width: 700px;
+    margin: 50px auto; 
+}
+#columnas{
+column-count: 3;
+column-gap: 20px;
+}
+.col1, .col2, .col3{
+    float: left;
+    margin: 0 2px 10px;
+    padding: 15px; 
+    padding-bottom: 5px;
+}
+#col h4{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#col p{
+    font:  100% Montserrat, sans-serif; 
+    margin: 0; 
+    text-align: justify;
+    color: black; 
+}
+#col img{
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 5px; 
+}
+.tituloPrincipal2{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+.alumnos{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 150%;
+}
+table {
+    width: 90%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: 0 auto; 
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 110% ;
+}
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    padding: 0.3em;
+    caption-side: bottom;
+    text-align: center;
+    padding: 10px;
+}
+#numeral{
+    width: 2%;
+}
+#dato{
+    width: 15%;
+}
+#dato2{
+    width: 5%;
+}
+#dato3{
+    width: 5%;
+}
+th{
+    background: rgb(153, 30, 30);
+    color: white;
+}
+.tituloPrincipal3{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-family: 'Open Sans', sans-serif;
+}
+.contenedorFinal{
+  width: 80%;
+  max-width: 1100px;
+  min-width: 700px;
+  margin: 50px auto; 
+}
+li{
+  list-style: none;
+  list-style: lower-alpha;
+}
+a .ganador{
+  text-decoration: none; 
+}
+/*----------Footer----------*/
+.footer-contenedor{
+   width: 100%;
+   background: #f1f1f1;
+   padding: 5px 0px;
+   position: sticky;
+   top: 100%;
+}
+.footer-iconos{
+   width: 100%;
+   height: auto;
+   margin: auto;
+}
+.footer-iconos ul{
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+}
+.footer-iconos ul li{
+  display: inline-block;
+  margin: 10px 10px; 
+  border-radius: 100%;
+  background: #2872aa;
+  width: 50px;
+  height: 50px;
+}
+.footer-iconos ul li a{
+  color: #f1f1f1;
+  font-size: 30px;
+}
+.footer-iconos ul li a i{
+  line-height: 50px;
+}
+.footer-bottom{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+}
+.footer-bottom p{
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+}
+
