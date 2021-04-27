@@ -22,12 +22,12 @@ a{
 nav img{
   width: 100px;
   height: auto;
-  float: right;
-  margin-right: 5%;
+  float: left;
+  margin-left: 5%;
 }
 nav ul{
-  float: left;
-  margin-left: 40px;
+  float: right;
+  margin-right: 40px;
   margin-top: 10px;
 }
 nav ul li{
@@ -81,6 +81,10 @@ h1{
   width: 100%;
   height: auto;
   margin: auto;
+  display: inline-block;
+}
+.footer-iconos div{
+  display: inline-block;
 }
 .footer-iconos ul{
   margin: 0px;
@@ -102,15 +106,11 @@ h1{
 .footer-iconos ul li a i{
   line-height: 50px;
 }
-.footer-bottom{
-  width: 100%;
-  height: auto;
-  margin: 0px;
-}
-.footer-bottom p{
+.footer-iconos p{
   color: #000;
-  text-align: center;
+  text-align: right;
   padding-top: 10px;
   font-size: 17px;
   font-family: 'Lato', sans-serif;
+  display: inline-block;
 }
