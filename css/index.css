@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
-
 *{
     padding: 0; 
     margin: 0; 
@@ -11,37 +9,37 @@ body{
 }
 /*---------- NavBar ----------*/
 nav{
-    height: 100px;
-    width: 100%;
-    background: #f2f2f2;;
-  }
-  a{
-    text-decoration: none;
-    list-style: none;
-  }
-  nav img{
-    width: 100px;
-    height: auto;
-    float: right;
-    margin-right: 5%;
-  }
-  nav ul{
-    float: left;
-    margin-left: 40px;
-    margin-top: 10px;
-  }
-  nav ul li{
-    display: inline-block;
-    margin: 0 10px;
-    line-height: 80px;
-  }
-  nav ul li a{
-    color: #000;
-    font-size: 20px;
-    padding: 7px 10px;
-    border-radius: 3px;
-    font-family: 'Lato', sans-serif;
-  }
+  height: 100px;
+  width: 100%;
+  background: #f2f2f2;;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+}
+nav img{
+  width: 100px;
+  height: auto;
+  float: left;
+  margin-left: 5%;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+  line-height: 80px;
+}
+nav ul li a{
+  color: #000;
+  font-size: 20px;
+  padding: 7px 10px;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+}
 /*---------- Cuerpo del projecto ----------*/
 .tituloPrincipal{
     text-align: center;
@@ -146,23 +144,27 @@ li{
 a .ganador{
   text-decoration: none; 
 }
-/*----------Footer----------*/
+/*---------- Footer ----------*/
 .footer-contenedor{
-   width: 100%;
-   background: #f1f1f1;
-   padding: 5px 0px;
-   position: sticky;
-   top: 100%;
+  width: 100%;
+  background: #f1f1f1;
+  padding: 5px 0px;
+  position: sticky;
+  top: 100%;
 }
 .footer-iconos{
-   width: 100%;
-   height: auto;
-   margin: auto;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: inline-block;
+}
+.footer-iconos div{
+  display: inline-block;
 }
 .footer-iconos ul{
-   margin: 0px;
-   padding: 0px;
-   text-align: center;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
 .footer-iconos ul li{
   display: inline-block;
@@ -179,16 +181,11 @@ a .ganador{
 .footer-iconos ul li a i{
   line-height: 50px;
 }
-.footer-bottom{
-  width: 100%;
-  height: auto;
-  margin: 0px;
-}
-.footer-bottom p{
+.footer-iconos p{
   color: #000;
-  text-align: center;
+  text-align: right;
   padding-top: 10px;
   font-size: 17px;
   font-family: 'Lato', sans-serif;
+  display: inline-block;
 }
-
