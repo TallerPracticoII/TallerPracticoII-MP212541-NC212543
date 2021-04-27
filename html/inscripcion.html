@@ -10,90 +10,91 @@
 </head>
 <body>
     <!-- Barra de navegación -->
-  <nav>
-    <ul>
-      <li><a href="../index.html">Inicio</a></li>
-      <li><a href="#">El Club</a></li>
-      <li><a href="#">Actividades</a></li>
-      <li><a href="#">Torneo</a></li>
-      <li><a href="../html/inscripcion.html">Inscripción en linea</a></li>
-      <li><a href="../html/videos.html">Videos</a></li>
-    </ul>
-    <img src="../img/logo.png" alt="logo">
-    </nav><br>
+    <nav>
+      <img src="../img/logo.png" alt="logo">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">El Club</a></li>
+        <li><a href="#">Actividades</a></li>
+        <li><a href="#">Torneo</a></li>
+        <li><a href="inscripcion.html">Inscripción en linea</a></li>
+        <li><a href="videos.html">Videos</a></li>
+      </ul>
+      </nav><br>
     <!-- Cuerpo del proyecto -->
     <h1>Inscribete</h1>
     <div class="contenedor">
-        <form>
-            <div>
-              <label>Nombres:</label>
-              <input type="text" pattern="^[A-Za-z ]*$" placeholder="Escriba sus nombres." required>
-            </div>
-            <div>
-                <label>Apellidos:</label>
-                <input type="text" pattern="^[A-Za-z ]*$" placeholder="Escriba sus apellidos." required>
+      <div class="ins-texto">
+        <p>Realizar ejercicio otorga una calidad de vida óptima, prevención de enfermedades y genera felicidad, entre otros.
+        Entre los beneficios que este deporte trae consigo son la disciplina, el respeto, la higiene, la perseverancia; así mismo donde los niños, jóvenes y adultos, aparte de aprender, se liberan del estrés del día a día, queman toxinas y grasa, ponen a trabajar su cuerpo y mente, y su espíritu y confianza se engrandece al paso del tiempo conforme avanza de grado u obtiene experiencia.
+        Si deseas practicar las artes marciales no dudes en llenar este formulario y empieza a entrenar con nosotros.</p>
+      </div>
+      <div class="contenedor-form">
+          <form>
+              <div>
+                <label>Nombres:</label>
+                <input type="text" pattern="^[A-Za-z ]*$" placeholder="Escriba sus nombres." required>
               </div>
-            <div>
-                <label>Fecha de nacimiento:</label>
-                <input type="date" required>
-            </div>
-            <div>
-                <label>Edad:</label>
-                <input type="number" placeholder="Escriba su edad." required>
-            </div>
-            <div>
-                <p>Género:</p>
-                <label><input type="radio" name="genero" value="masculino" required>Masculino</label><br>
-                <label><input type="radio" name="genero" value="femenino" required>Femenino</label>
-            </div>
-            <div>
-                <label>Correo electrónico</label>
-                <input type="email" placeholder="ejemplo@gmail.com" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
-            </div>
-            <div>
-                <label>Departamento:</label>
-                <select name="departamentos" id="departamentos" required>
-                    <option value="">Santa Ana</option>
-                    <option value="">Ahuachapán</option>
-                    <option value="">Sonsonate</option>
-                    <option value="">La Libertad</option>
-                    <option value="">Chalatenango</option>
-                    <option value="">Cabañas</option>
-                    <option value="">Cuscatlán</option>
-                    <option value="">San Salvador</option>
-                    <option value="">La Paz</option>
-                    <option value="">San Vicente</option>
-                    <option value="">Usulután</option>
-                    <option value="">San Miguel</option>
-                    <option value="">Morazán</option>
-                    <option value="">La Unión</option>
-                </select>
-            </div>
-            <div>
-                <label>Dirección:</label>
-                <textarea rows="2" required></textarea>
+              <div>
+                  <label>Apellidos:</label>
+                  <input type="text" pattern="^[A-Za-z ]*$" placeholder="Escriba sus apellidos." required>
+                </div>
+              <div>
+                  <label>Fecha de nacimiento:</label>
+                  <input type="date" required>
               </div>
-            <button type="submit">Registrarse <i class="fas fa-paper-plane"></i></button>
-          </form>
-    </div>
-    <div class="ins-texto">
-      <p>Realizar ejercicio otorga una calidad de vida óptima, prevención de enfermedades y genera felicidad, entre otros.
-      Entre los beneficios que este deporte trae consigo son la disciplina, el respeto, la higiene, la perseverancia; así mismo donde los niños, jóvenes y adultos, aparte de aprender, se liberan del estrés del día a día, queman toxinas y grasa, ponen a trabajar su cuerpo y mente, y su espíritu y confianza se engrandece al paso del tiempo conforme avanza de grado u obtiene experiencia.
-      Si deseas practicar las artes marciales no dudes en llenar este formulario y empieza a entrenar con nosotros.</p>
+              <div>
+                  <label>Edad:</label>
+                  <input type="number" placeholder="Escriba su edad." required>
+              </div>
+              <div>
+                  <p>Género:</p>
+                  <label><input type="radio" name="genero" value="masculino" required>Masculino</label><br>
+                  <label><input type="radio" name="genero" value="femenino" required>Femenino</label>
+              </div>
+              <div>
+                  <label>Correo electrónico</label>
+                  <input type="email" placeholder="ejemplo@gmail.com" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required>
+              </div>
+              <div>
+                  <label>Departamento:</label>
+                  <select name="departamentos" id="departamentos" required>
+                      <option value="">Santa Ana</option>
+                      <option value="">Ahuachapán</option>
+                      <option value="">Sonsonate</option>
+                      <option value="">La Libertad</option>
+                      <option value="">Chalatenango</option>
+                      <option value="">Cabañas</option>
+                      <option value="">Cuscatlán</option>
+                      <option value="">San Salvador</option>
+                      <option value="">La Paz</option>
+                      <option value="">San Vicente</option>
+                      <option value="">Usulután</option>
+                      <option value="">San Miguel</option>
+                      <option value="">Morazán</option>
+                      <option value="">La Unión</option>
+                  </select>
+              </div>
+              <div>
+                  <label>Direccion:</label>
+                  <textarea rows="2" required></textarea>
+                </div>
+              <button type="submit">Registrarse <i class="fas fa-paper-plane"></i></button>
+            </form>
+      </div>
     </div>
     <!-- Footer -->
     <div class="footer-contenedor">
-        <div class="footer-iconos">
-          <ul>
-            <!--Los links de las redes sociales solo son representativos-->
-            <li><a href="https://www.facebook.com/KarateCombatOfficial/" target="_blank"><i class="fa fa-facebook"></i> </a></li>
-            <li><a href="https://www.instagram.com/karatecombat/?hl=es-la" target="_blank"><i class="fa fa-instagram"></i> </a></li>
-            <li><a href="https://www.youtube.com/channel/UCrx0XRJeIhstGD8H60kLYYA" target="_blank"><i class="fa fa-youtube"></i> </a></li>
-          </ul>
-        </div>
-        <div class="footer-bottom">
+      <div class="footer-iconos">
+        <ul>
+          <!--Los links de las redes sociales solo son representativos-->
+          <li><a href="https://www.facebook.com/KarateCombatOfficial/" target="_blank"><i class="fa fa-facebook"></i> </a></li>
+          <li><a href="https://twitter.com/KarateCombat" target="_blank"><i class="fa fa-twitter"></i> </a></li>
+          <li><a href="https://www.youtube.com/channel/UCrx0XRJeIhstGD8H60kLYYA" target="_blank"><i class="fa fa-youtube"></i> </a></li>
+          <li><a href="https://www.instagram.com/karatecombat/?hl=es-la" target="_blank"><i class="fa fa-instagram"></i> </a></li>
           <p>Todos los derechos reservados | Diseñado por César Morales y Rafael Najarro</p>
-        </div>
+        </ul>
       </div>
+    </div>
 </body>
 </html>
